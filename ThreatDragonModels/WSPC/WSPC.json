@@ -10,7 +10,13 @@
         "name": "Dan Yndaruca"
       }
     ],
-    "diagrams": [],
+    "diagrams": [
+      {
+        "title": "Eventos",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
     "reviewer": ""
   }
 }
