@@ -12,9 +12,111 @@
     ],
     "diagrams": [
       {
-        "title": "Eventos",
+        "title": "Flujo de Datos",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 396,
+                "y": 242
+              },
+              "angle": 0,
+              "id": "db201e3f-c7cf-4433-be56-40991588140c",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Aplication\nWSPC"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 152,
+                "y": 63
+              },
+              "angle": 0,
+              "id": "154a7c64-b593-432b-aad4-9b385b928fbe",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Navegador"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "154a7c64-b593-432b-aad4-9b385b928fbe"
+              },
+              "target": {
+                "id": "db201e3f-c7cf-4433-be56-40991588140c"
+              },
+              "vertices": [
+                {
+                  "x": 429,
+                  "y": 148
+                }
+              ],
+              "id": "620b6f63-01f8-4960-a36d-0f777acc19f3",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5601667663219854,
+                    "offset": -19.0725175791405
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": ""
