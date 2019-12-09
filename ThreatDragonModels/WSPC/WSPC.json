@@ -1,10 +1,12 @@
 {
   "summary": {
     "title": "WSPC",
-    "owner": ""
+    "owner": "WSPC",
+    "description": "Autorización de Datos Sensibles"
   },
   "detail": {
     "contributors": [],
-    "diagrams": []
+    "diagrams": [],
+    "reviewer": ""
   }
 }
