@@ -144,12 +144,73 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 728,
+                "y": 461
+              },
+              "angle": 0,
+              "id": "98c7359c-ebfc-4ee9-b428-656d4625b6d4",
+              "z": 5,
+              "hasOpenThreats": false,
+              "isEncrypted": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Base de datos"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "db201e3f-c7cf-4433-be56-40991588140c"
+              },
+              "target": {
+                "id": "98c7359c-ebfc-4ee9-b428-656d4625b6d4"
+              },
+              "vertices": [],
+              "id": "8fda9415-449a-472f-bbe4-183dd2f2511e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Select List de Abonos\na validar",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 1743.97998046875
         }
       }
     ],
