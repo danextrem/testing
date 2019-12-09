@@ -5,7 +5,11 @@
     "description": "Sistema de validación de Abonos"
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Dan Yndaruca"
+      }
+    ],
     "diagrams": [],
     "reviewer": ""
   }
